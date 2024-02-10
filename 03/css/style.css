@@ -1,0 +1,8 @@
+.parent {
+    width: 600px;
+    padding: 20px;
+}
+
+.child {
+    display: inline;
+}
