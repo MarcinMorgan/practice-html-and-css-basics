@@ -26,17 +26,31 @@ html{
 }
 
 .child {
-    
+
 }
 
 .child--first {
-
+    width: 30%;
 }
 
 .child--middle {
+    width: 30%;
     font-weight: bold;
 }
 
 .child--last {
+    width: 40%;
     font-style: italic;
+}
+
+.parent--inline-block {
+    display: inline-block;
+}
+
+.parent--float {
+
+}
+
+.parent--flexbox {
+
 }
