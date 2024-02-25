@@ -25,26 +25,22 @@ html {
     padding: 20px;
 }
 
-.child {
-
+.parent--inline-block .child{
+    display: inline-block;
 }
 
 .child--first {
-    width: 30%;
+    width: calc(30% - 20px / 3);
 }
 
 .child--middle {
-    width: 30%;
+    width: calc(30% - 20px / 3);
     font-weight: bold;
 }
 
 .child--last {
-    width: 40%;
+    width: calc(40% - 20px / 3);
     font-style: italic;
-}
-
-.parent--inline-block .child{
-    display: inline-block;
 }
 
 .parent--float {
