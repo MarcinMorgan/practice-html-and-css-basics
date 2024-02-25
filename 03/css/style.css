@@ -16,7 +16,7 @@
     font-weight: bold;
 }
 
-html{
+html {
     font-family: 'Source Sans PRO';
 }
 
@@ -43,7 +43,7 @@ html{
     font-style: italic;
 }
 
-.parent--inline-block {
+.parent--inline-block .child{
     display: inline-block;
 }
 
