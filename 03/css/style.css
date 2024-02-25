@@ -25,10 +25,6 @@ html {
     padding: 20px;
 }
 
-.parent--inline-block .child{
-    display: inline-block;
-}
-
 .child--first {
     width: calc(30% - 20px / 3);
 }
@@ -43,10 +39,14 @@ html {
     font-style: italic;
 }
 
-.parent--float {
+.parent--inline-block .child {
+    display: inline-block;
+}
 
+.parent--float .child {
+    float: left;
 }
 
 .parent--flexbox {
-
+    display: flex;
 }
