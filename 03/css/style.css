@@ -26,16 +26,16 @@ html {
 }
 
 .child--first {
-    width: calc(30% - 20px / 3);
+    width: calc(30% - 10px);
 }
 
 .child--middle {
-    width: calc(30% - 20px / 3);
+    width: calc(30% - 10px);
     font-weight: bold;
 }
 
 .child--last {
-    width: calc(40% - 20px / 3);
+    width: calc(40% - 10px);
     font-style: italic;
 }
 
