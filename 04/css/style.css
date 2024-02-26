@@ -61,7 +61,7 @@ header ul {
     rotate: 90deg;
 }
 
-.nav__dropdown:hover .nav__dropdown-sub {
+.dropdown__item:hover .nav__dropdown-sub {
     visibility: visible;
 }
 
