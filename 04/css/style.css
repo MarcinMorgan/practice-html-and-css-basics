@@ -12,6 +12,7 @@ header ul {
 .nav__item:hover:after {
     content: '>';
     font-size: 10px;
+    display: inline-block;
     color:#52C5F1;
     margin-left: 20px;
     transform: rotate(90deg);
