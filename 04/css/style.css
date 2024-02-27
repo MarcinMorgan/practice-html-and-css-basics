@@ -55,6 +55,10 @@ header ul {
     min-width: 120px;
 }
 
+.nav__dropdown {
+    top: 54px;
+}
+
 
 .dropdown__item:hover:after {
     content: '>';
@@ -63,6 +67,6 @@ header ul {
 }
 
 .nav__dropdown-sub {
-    top: 33px;
+    top: 25px;
     left: 160px;
 }
