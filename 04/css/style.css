@@ -20,7 +20,7 @@ header ul {
 
 .nav__item {
     background: #F7F7F7;
-    padding: 0 5px;
+    padding: 5px 5px;
     margin-left: 5px;
     width: 120px;
     position: relative;
@@ -30,12 +30,27 @@ header ul {
     color: #52C5F1;
 }
 
+.nav__highlight {
+    position: relative;
+    top: -5px;
+    left: -5px;
+    width: 130px;
+    height: 2px;
+    background-color: #52C5F1;
+    visibility: hidden;
+}
+
+.nav__item:hover .nav__highlight {
+    visibility: visible;
+}
+
 .nav__item--no-space {
     margin-left: 0;
 }
 
 .nav__item:hover .nav__dropdown {
     visibility: visible;
+    z-index: 1;
 }
 
 .nav__dropdown {
@@ -63,6 +78,7 @@ header ul {
 
 .dropdown__item:hover .nav__dropdown-sub {
     visibility: visible;
+    z-index: 1;
 }
 
 .nav__dropdown-sub {
