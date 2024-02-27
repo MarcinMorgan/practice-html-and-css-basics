@@ -9,12 +9,17 @@ header ul {
     font-size: 10px;
 }
 
-.nav__item:hover:after {
+.nav__item:hover:after, .dropdown__item:hover:after {
     content: '>';
     font-size: 10px;
     display: inline-block;
     color:#52C5F1;
+    margin-left: 50%;
     transform: rotate(90deg);
+}
+
+.dropdown__item:hover:after {
+    color:#F7F7F7;
 }
 
 .nav__item {
@@ -58,14 +63,6 @@ header ul {
 .nav__dropdown {
     top: 54px;
 }
-
-
-.dropdown__item:hover:after {
-    content: '>';
-    font-size: 10px;
-    color:#F7F7F7;
-}
-
 .nav__dropdown-sub {
     top: 25px;
     left: 160px;
